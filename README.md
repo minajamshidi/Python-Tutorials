@@ -9,3 +9,5 @@ You can find these tutorials here:
 * Numpy tutorials: These are self-learning Numpy playground notebooks. You can explore Numpy with these notebooks. May 2020
 
 * EEG preprocessing: prepared for a hands-on session of the course "Methods in Cognitive Neuroscience" at Max Planck School of Cognition. June 2020
+
+* MEEG-Analysis: Some tutorials for analysing MEEG.
