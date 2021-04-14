@@ -1,0 +1,4 @@
+# Ex. 1-4
+
+d = np.sum(A, axis=0)
+plt.hist(d, bins=np.arange(0, np.max(d)+2, 1))
