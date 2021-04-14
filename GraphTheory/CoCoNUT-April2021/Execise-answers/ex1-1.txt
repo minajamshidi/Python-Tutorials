@@ -1,7 +1,9 @@
 # Exercise 1.1
 
-A = np.array([[0, 1, 0, 1, 0], 
-              [1, 0, 1, 0, 0], 
-              [0, 1, 0, 0, 1], 
-              [1, 0, 0, 0, 1], 
-              [0, 0, 1, 1, 0]])
+Consider an undirected graph G=(V, E). With n nodes (i.e. |V|=n).
+
+1. Approach 1: The number of all possible links in a graph with n nodes is equal to the number all subsets of V with exactly two elements. This is equal to the possible ways of choosing two distinct elements from a set of n elements, equal to n!/((n-2)!*2) = n(n-1)/2.
+
+2. Approach 2: think of the adjacency matrix of the graph G. Assume that G is a complete graph. Then all the elements, except those on the main diagonal, would be 1. Since the adjacency matrix of G is symmetric,  the number of elements in the upper (or lower) triangle of the matrix is equal to the number of edges. This is equal to the half of the off-diagonal elements, equal to (n^2-n)/2 = n(n-1)/2. 
+
+(Note: the n x n matrix has n^2 elements and n of them are on the main diagonal. therefore, the number of off-diagonal elements is equal to (n^2 - n))
