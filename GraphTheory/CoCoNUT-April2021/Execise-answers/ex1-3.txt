@@ -1,0 +1,3 @@
+# exercise 1.3
+
+ d = np.sum(A, axis=1)
