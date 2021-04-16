@@ -1,3 +1,11 @@
-# Ex 1.5
+# Exercise 1.6
 
-plt.plot(np.log(b[:-1]), np.log(1 - np.cumsum(h)/np.sum(h)), '.')
+d = np.sum(A, axis=0)
+
+ind_sorted = np.argsort(d)
+ind_hubs = ind_sorted[-5:]
+
+# the two above lines can be summerized as: 
+# ind_hubs = np.argsort(d)[-5:]
+
+n_nodes = A.shape[0]
