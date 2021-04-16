@@ -1,4 +1,4 @@
-# Exercise 1.6
+# Exercise 1.5
 
 d = np.sum(A, axis=0)
 
