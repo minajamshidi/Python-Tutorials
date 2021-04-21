@@ -11,7 +11,10 @@ You can find these tutorials here:
 
 	* IMPRS NeuroCom retreat Nov 2019
 
-* Numpy tutorials: These are self-learning Numpy playground notebooks. You can explore Numpy with these notebooks. May 2020
+* PythonPackages
+	* Numpy tutorials: These are self-learning Numpy playground notebooks. You can explore Numpy with these notebooks
+	* Parallel Processing
+		* multiprocessing
 
 * MEEG Analysis
 	
