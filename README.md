@@ -18,6 +18,6 @@ You can find these tutorials here:
 
 * MEEG Analysis
 	
-	* EEG preprocessing: prepared for a hands-on session of the course "Methods in Cognitive Neuroscience" at Max Planck School of Cognition. June 2020
+	* EEG preprocessing: prepared for hands-on sessions of the course "Methods in Cognitive Neuroscience" at Max Planck School of Cognition.
 	* Source Space analysis
 
