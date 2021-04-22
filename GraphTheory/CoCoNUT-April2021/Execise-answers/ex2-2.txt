@@ -1,4 +1,14 @@
 # Exercise 2.2
 
-c_degree = np.sum(A, 0)
-lamdda2, c_eigcent = eigs(A, k=1)
+# Ex 2.2.1: compute the degree centrality ......
+c_degree_G1 = np.sum(A_G1, 0)
+
+# Ex 2.2.2: compute the eingenvector ......
+lamdda2_G1, eigvec_G1 = eig(A_G1)
+
+
+# Ex 2.2.3: now find the index of the largest eigenvalue in lamdda2_G1
+ind1 = np.argmax(lamdda2_G1)
+
+# Ex 2.2.4: keep the column coressponding to ind1
+c_eigcent_G1 = eigvec_G1[:, ind1]

@@ -1,0 +1,25 @@
+# Exercise 2.3
+
+
+
+# Exercise 2.3.2 ****************
+
+A = np.array([[0, 1, 1, 1, 0],
+              [0, 0, 0, 1, 1],
+              [0, 0, 0, 0, 0],
+              [0, 0, 0, 0, 0],
+              [0, 0, 1, 0, 0]])
+
+
+
+
+# Exercise 2.3.1 and 2.3.3 ****************
+* Node 0 has no in-going edge --> its eigvec cent. is zero
+* Node 1 has only one in-going edge and it is from node 0 --> node 1's eigvec cent. is also zero
+* Node 4 is only pointed to by node 1 --> node 4's cent is zero too
+* node 2 is pointed to be nodes 4 and 0, which have both zero centrality --> node 2's cent is zero as well.
+* Node 3 received links from nodes 0 and 1 --> node 3's centrality is 0. 
+
+--> All the nodes have zero centrality
+
+
