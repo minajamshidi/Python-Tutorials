@@ -1,0 +1,4 @@
+# Exercise 2.2
+
+c_degree = np.sum(A, 0)
+lamdda2, c_eigcent = eigs(A, k=1)
