@@ -1,8 +1,6 @@
 # Python-Tutorials
 
-In this repository, I include tutorials for learning and exploring some python packages.
-
-* numpy
+In this repository, I include notebooks for exploring some python packages.
 
 * parallel_Processing
 	
