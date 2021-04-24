@@ -4,8 +4,8 @@ In this repository, I include the tutorials I have prepared for learning Python/
 
 You can find these tutorials here:
 
-* GraphTheory: tutorials for basic graph theory - with Python.
-	* CoCoNUT Meeting April 2021
+* GraphTheory: 
+	* CoCoNUT Meeting April 2021: tutorials for basic graph theory - with Python. @CoCoNUT CBS
 
 * MachineLearning: Machine Learning pipelines
 
